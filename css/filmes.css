@@ -1,9 +1,70 @@
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #242B30;
+    color: antiquewhite;
+    font-family: "Alkatra-VariableFont_wght";
+    font-size: 1.5em;
+}
+.rodape_informacoes{
+    width: 90%;
+    margin: auto;
+    background-color: aliceblue;
+}
 @font-face {
     font-family: "Alkatra-VariableFont_wght";
     src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
   }
-.img_demonstaditva{
-    height: 360px;
+  h1{
+    padding: 10px;
+    font-family: "Alkatra-VariableFont_wght";
+    color: antiquewhite;
+  }
+.conteudo1{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(105, 70, 26);
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;    
+}
+.img_demonstrativa_div{
+    width: 60% ;
+    background-color: brown ;
+    padding-bottom: 30px;
+    margin-top: 10vh;
+    color: antiquewhite;
+}
+.img_demonstrativa{
+    width: 100%;
+}
+.informações_filme{
+    padding-top: 10px;
+    margin-left: 2%;
+    font-family: "Alkatra-VariableFont_wght";
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.informações_filme h2{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+}
+.informações{
+    width: 40% ;
+    background-color: rgb(28, 29, 29);
+    display: list-item;
+    justify-content: center;
+    margin-top: 10vh;
+    
+}
+.cabecalho{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 10%;
 }
 p{
     font-family: "Alkatra-VariableFont_wght";
@@ -13,12 +74,47 @@ p{
     padding-top: 50px;
     padding-bottom: 60px;
 }
-.classificação{
+.Classificação{
+    padding-top: 30px;
+}
+.sinopse h2{
+    margin-left: 2rem !important;
     color: antiquewhite;
     font-family: "Alkatra-VariableFont_wght";
 }
 .sinopse{
+    width: 90%;
+    margin: auto;
+}
+.Classificação h2{
+    margin-left: 2rem !important;
     color: antiquewhite;
     font-family: "Alkatra-VariableFont_wght";
-    text-align: left;
+}
+.img_Class_Idade{
+    width: 50px;
+    padding-top: 10px;
+}
+.informacoes1{
+    width: 80%;
+    background-color: cadetblue;
+}
+.tipo{
+    background-color: aqua;
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    
+}
+.tipo1{
+    width: 140px;
+    height: 40px;
+    background-color: #242B30;
+    border-radius: 8px;
+
+}
+.tipo1 h3{
+    font-size: 1.4em;
+    padding-top: 8px;
+    text-align: center;
 }

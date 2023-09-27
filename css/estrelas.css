@@ -1,5 +1,6 @@
-body{text-align: center; padding-top: 50px}
-
+.estrelas{
+  margin-left: 2em;
+}
 .estrelas input[type=radio] {
   display: none;
 }
