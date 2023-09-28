@@ -5,12 +5,11 @@
     background-color: #242B30;
     color: antiquewhite;
     font-family: "Alkatra-VariableFont_wght";
-    font-size: 1.5em;
+    height: 4%;
 }
 .rodape_informacoes{
     width: 90%;
     margin: auto;
-    background-color: aliceblue;
 }
 @font-face {
     font-family: "Alkatra-VariableFont_wght";
@@ -24,14 +23,17 @@
 .conteudo1{
     width: 90%;
     margin: auto;
-    background-color: rgb(105, 70, 26);
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;    
+    height: 100vh;
+    background-color: #3f4a52;
+    margin-top: -50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 .img_demonstrativa_div{
     width: 60% ;
-    background-color: brown ;
     padding-bottom: 30px;
     margin-top: 10vh;
     color: antiquewhite;
@@ -53,7 +55,6 @@
 }
 .informações{
     width: 40% ;
-    background-color: rgb(28, 29, 29);
     display: list-item;
     justify-content: center;
     margin-top: 10vh;
@@ -69,10 +70,6 @@
 p{
     font-family: "Alkatra-VariableFont_wght";
     color: aliceblue;
-}
-.conteudo{
-    padding-top: 50px;
-    padding-bottom: 60px;
 }
 .Classificação{
     padding-top: 30px;
@@ -97,10 +94,8 @@ p{
 }
 .informacoes1{
     width: 80%;
-    background-color: cadetblue;
 }
 .tipo{
-    background-color: aqua;
     width: 20%;
     display: flex;
     justify-content: right;

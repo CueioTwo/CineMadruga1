@@ -1,15 +1,26 @@
 @font-face {
   font-family: "Alkatra-VariableFont_wght";
   src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
-}
 
+}
+body{
+  overflow-x: hidden;
+}
+.tudo{
+  width: 100% !important;
+
+}
+.tudo1{
+  margin-bottom: -16px;
+  margin-top: -16px;
+}
 .conteudo h1{
     margin-top: 10px;
     color: antiquewhite;
 }
 .conteudo{
     background-color: rgb(65, 65, 65);
-    padding-top: 10px;
+    width: 80vw;
 }
 
 .carousel-inner > .carousel-item > img {
@@ -21,12 +32,13 @@
     padding-bottom: 20px;
   }
   .filme{
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
     padding-top: 10px;
     background-color: black;
     text-align: center;
     padding-bottom: 10px;
+    border-radius: 4px;
   }
   .filme_2{
     
@@ -41,7 +53,7 @@
     text-align: center;
   }
   .img_filme{
-    width: 100%;
+    width: 80%;
     height: 300px;
   }
   .btn_ver{
