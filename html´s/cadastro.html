@@ -3,7 +3,6 @@
 
 <head>
   <title>Cadastro</title>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,10 +12,10 @@
 <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 
-<body>
+<body style="background-color: #242B30;">
     <form action="action_page.php" method="post">
       
-        <div class="container">
+        <div class="container" style="color: antiquewhite;">
           <label for="uname"><b>Nome do usuario</b></label>
           <input type="text" placeholder="Nome do usuario" name="uname" required>
 
@@ -33,10 +32,10 @@
           <input type="password" placeholder="Repita a Senha" name="resenha" required>
 
 
-          <button type="submit">Cadastrar</button>
           <label>
             <input type="checkbox" checked="checked" name="remember"> Lembre-se de mim
-          </label>
+          </label><br>
+          <button type="submit" id="cad">Cadastrar</button>
         </div>
       
         <div class="container" style="background-color:#f1f1f1">

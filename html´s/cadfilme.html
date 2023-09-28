@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>Cadastro do filme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/cafilme.css">
+</head>
+
+<body style="background-color: #242B30;color: antiquewhite;">
+    <div class="container">
+    <label for="nome"><b>Nome do Filme:</b></label>
+    <input type="text" placeholder="Filme" name="filme" required>
+
+    <label for="dif"><b>Diretor do Filme:</b></label>
+    <input type="text" placeholder="Diretor do filme" name="dir" required>
+
+    <label for="data"><b>Data de Lançamento:</b></label><br><br>
+    <input type="date" placeholder="Data de Lançamento" name="data" required><br><br>
+
+    <label for="data"><b>Capa do Filme:</b></label><br><br>
+    <input type="file"  name="capa" required><br><br>
+    
+    <label for="data"><b>Sinopse do Filme:  </b></label>
+    <input type="text" placeholder="Sinopse" name="sinopse" required >
+
+    <div class="clearfix">
+      <button type="reset" class="limparbtn">Limpar</button>
+      <button type="submit" class="cadastrarbtn">Cadastrar</button>
+    </div>
+</body>
+
+</html>
