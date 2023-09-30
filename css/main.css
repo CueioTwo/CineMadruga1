@@ -3,6 +3,26 @@
   src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
 
 }
+
+.fixarRodape {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #242B30;
+  height: 3%;
+}
+.rodape_informacoes_nomes{
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+.rodape_informacoes_nomes h2{
+  padding-top: 8px;
+  font-size: 1em;
+  color: antiquewhite;
+  font-family: "Alkatra-VariableFont_wght";
+}
+
 body{
   overflow-x: hidden;
 }
@@ -21,10 +41,11 @@ body{
 .conteudo{
     background-color: rgb(65, 65, 65);
     width: 80vw;
+    padding-bottom: 20px;
 }
 
 .carousel-inner > .carousel-item > img {
-    width: 80%;
+    width: 60%;
     height: 500px;
     margin: auto; 
   }
@@ -32,12 +53,13 @@ body{
     padding-bottom: 20px;
   }
   .filme{
+    width: 90%;
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 10px;
-    background-color: black;
+    background-color: rgb(29, 26, 26);
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-radius: 4px;
   }
   .filme_2{
@@ -53,7 +75,7 @@ body{
     text-align: center;
   }
   .img_filme{
-    width: 80%;
+    width: 70%;
     height: 300px;
   }
   .btn_ver{

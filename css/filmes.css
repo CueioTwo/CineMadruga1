@@ -1,16 +1,12 @@
-.fixarRodape {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    background-color: #242B30;
-    color: antiquewhite;
-    font-family: "Alkatra-VariableFont_wght";
-    height: 4%;
+
+
+
+
+.VC {
+    display: flex;
+    align-items: center;
 }
-.rodape_informacoes{
-    width: 90%;
-    margin: auto;
-}
+
 @font-face {
     font-family: "Alkatra-VariableFont_wght";
     src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
