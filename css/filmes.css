@@ -1,10 +1,6 @@
 
-
-
-
-.VC {
-    display: flex;
-    align-items: center;
+body{
+    background-color: rgb(2, 2, 2);
 }
 
 @font-face {
@@ -14,7 +10,7 @@
   h1{
     padding: 10px;
     font-family: "Alkatra-VariableFont_wght";
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
   }
 .conteudo1{
     width: 90%;
@@ -22,7 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-    background-color: #3f4a52;
+    background-color: #ffffff;
     margin-top: -50px;
     padding-left: 20px;
     padding-right: 20px;
@@ -32,7 +28,7 @@
     width: 60% ;
     padding-bottom: 30px;
     margin-top: 10vh;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
 }
 .img_demonstrativa{
     width: 100%;
@@ -60,19 +56,55 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
-    margin-left: 30%;
-    margin-right: 10%;
+    width: 100%;
 }
 p{
     font-family: "Alkatra-VariableFont_wght";
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+.editar{
+    width: 25%;
+}
+.btn_edit{
+    color: #ffffff;
+    background-color: rgb(197, 99, 8);
+    width: 90%;
+    border-radius: 10px;
+}
+.btn_edit:hover{
+    background-color: rgba(197, 99, 8, 0.697);
+    color: #ffffff;
+}
+.class-exit{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.exit{
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+
+}
+.btn_exit{
+    color: #ffffff;
+    background-color: rgb(197, 99, 8);
+    width: 50%;
+    border-radius: 10px;
+
+}
+.btn_exit:hover{
+    background-color: rgba(197, 99, 8, 0.697);
+    color: #ffffff;
 }
 .Classificação{
     padding-top: 30px;
+    width: 50%;
 }
 .sinopse h2{
     margin-left: 2rem !important;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-family: "Alkatra-VariableFont_wght";
 }
 .sinopse{
@@ -81,7 +113,7 @@ p{
 }
 .Classificação h2{
     margin-left: 2rem !important;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
     font-family: "Alkatra-VariableFont_wght";
 }
 .img_Class_Idade{
@@ -100,7 +132,7 @@ p{
 .tipo1{
     width: 140px;
     height: 40px;
-    background-color: #242B30;
+    background-color: #000000;
     border-radius: 8px;
 
 }
@@ -108,4 +140,5 @@ p{
     font-size: 1.4em;
     padding-top: 8px;
     text-align: center;
+    color: #ffffff;
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/filmes.css">
     <link rel="stylesheet" href="../css/estrelas.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>CineMadruga</title>
 </head>
 <body>
@@ -18,15 +19,11 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+            <li class="nav-item active">
+                <a class="nav-link" href="../indexo.html"><span class="nav_text">Home</span> <span class="sr-only">(página atual)</span></a>
+            </li>
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="indexo.html"><span class="nav_text">Home</span> <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="htmls/terror.html"><span class="nav_text">Terror</span></a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span class="nav_text">Categorias</span>
@@ -66,6 +63,9 @@
         </div>
         <div class="informações">
             <div class="cabecalho">
+                <div class="editar">
+                    <a name="" id="" class="btn btn_edit" href="editfilme.html" role="button">Editar</a>
+                </div>
                 <h1>The Mother</h1>
                 <div class="Class_Idade">
                     <img src="../img/NR16 (AUTO).png" alt="" class="img_Class_Idade">
@@ -78,22 +78,26 @@
                 </div>
                 <p>Uma agente do governo muda de identidade e abandona sua filha recém-nascida para protegê-la de seus inimigos. Anos depois, a garota é sequestrada pelos criminosos, forçando a espiã a sair de seu esconderijo para salvá-la.</p>
             </div>
-            
-            <div class="Classificação">
-                <h2>Classificação</h2>
-                <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-                <div class="estrelas">
-                    <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
-                    <label for="cm_star-1"><i class="fa"></i></label>
-                    <input type="radio" id="cm_star-1" name="fb" value="1"/>
-                    <label for="cm_star-2"><i class="fa"></i></label>
-                    <input type="radio" id="cm_star-2" name="fb" value="2"/>
-                    <label for="cm_star-3"><i class="fa"></i></label>
-                    <input type="radio" id="cm_star-3" name="fb" value="3"/>
-                    <label for="cm_star-4"><i class="fa"></i></label>
-                    <input type="radio" id="cm_star-4" name="fb" value="4"/>
-                    <label for="cm_star-5"><i class="fa"></i></label>
-                    <input type="radio" id="cm_star-5" name="fb" value="5"/>
+            <div class="class-exit">
+                <div class="Classificação">
+                    <h2>Classificação</h2>
+    
+                    <div class="estrelas">
+                        <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                        <label for="cm_star-1"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-1" name="fb" value="1" />
+                        <label for="cm_star-2"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-2" name="fb" value="2" />
+                        <label for="cm_star-3"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-3" name="fb" value="3" />
+                        <label for="cm_star-4"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-4" name="fb" value="4" />
+                        <label for="cm_star-5"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-5" name="fb" value="5" />
+                    </div>
+                </div>
+                <div class="exit">
+                    <a name="" id="" class="btn btn_exit" href="../indexo.html" role="button">Sair</a>
                 </div>
             </div>
         </div>
@@ -101,12 +105,11 @@
         
 
    <footer>
-    <div class="row">
-        <div class="col-1 rodape"></div>
-        <div class="col-3 rodape" >Nomes: Nicolas e Jackson</div>
-        <div class="col-3 rodape">Telefone: (11)91999-9999</div>
-        <div class="col-5 rodape">Instagrans: CueioPoker e Jackson</div>
-    </div>
-</footer>
+        <div class="fixarRodape">
+            <div class="rodape_informacoes_nomes">
+                <h2>Nicolas Sena e Jackson Miguel</h2>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

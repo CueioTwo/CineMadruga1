@@ -8,8 +8,8 @@
   bottom: 0;
   position: fixed;
   width: 100%;
-  background-color: #242B30;
-  height: 3%;
+  background-color: rgb(0, 0, 0);
+  height: 4%;
 }
 .rodape_informacoes_nomes{
   width: 90%;
@@ -19,12 +19,14 @@
 .rodape_informacoes_nomes h2{
   padding-top: 8px;
   font-size: 1em;
-  color: antiquewhite;
+  color: rgb(197, 99, 8);
   font-family: "Alkatra-VariableFont_wght";
+  text-align: center;
 }
 
 body{
   overflow-x: hidden;
+  background-color: black;
 }
 .tudo{
   width: 100% !important;
@@ -35,32 +37,33 @@ body{
   margin-top: -16px;
 }
 .conteudo h1{
-    margin-top: 10px;
+    margin-top: 20px;
     color: antiquewhite;
+    
 }
 .conteudo{
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(0, 0, 0);
     width: 80vw;
     padding-bottom: 20px;
 }
 
 .carousel-inner > .carousel-item > img {
-    width: 60%;
-    height: 500px;
+    width: 70%;
+    height: 600px;
     margin: auto; 
   }
   .filmes{
     padding-bottom: 20px;
   }
   .filme{
-    width: 90%;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 10px;
-    background-color: rgb(29, 26, 26);
+    width: 80%;
+    padding-top: 15px;
+    background-color: rgba(231, 89, 89, 0);
     text-align: center;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     border-radius: 4px;
+    
+    border: 1px solid rgb(197, 99, 8);
   }
   .filme_2{
     
@@ -79,13 +82,14 @@ body{
     height: 300px;
   }
   .btn_ver{
-    background-color: #D1985F;
-    color:antiquewhite;
+    background-color: rgb(197, 99, 8);
+    
+    color:rgb(0, 0, 0);
     width: 6em;
   }
   .btn_ver:hover{
-    background-color: antiquewhite;
-    color: #D1985F;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
   }
   .rodape{
     background-color: #242B30;

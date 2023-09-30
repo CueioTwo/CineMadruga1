@@ -12,37 +12,37 @@
 <link rel="stylesheet" href="../css/cadastro.css">
 </head>
 
-<body style="background-color: #242B30;">
-    <form action="action_page.php" method="post">
-      
-        <div class="container" style="color: antiquewhite;">
-          <label for="uname"><b>Nome do usuario</b></label>
-          <input type="text" placeholder="Nome do usuario" name="uname" required>
+<body style="background-color: #000000;">
+  <div style="border:1px solid #ccc">
+    <h1 class="titulo_h1" >Cadastro</h1>
+    <div class="container" style="color: antiquewhite;">
+      <label for="uname"><b>Nome do usuario</b></label>
+      <input type="text" placeholder="Nome do usuario" name="uname" required>
 
-          <label for="uname"><b>Email</b></label>
-          <input type="text" placeholder="Email" name="email" required>
+      <label for="uname"><b>Email</b></label>
+      <input type="text" placeholder="Email" name="email" required>
 
-          <label for="uname"><b>Repita o Email</b></label>
-          <input type="text" placeholder="Repita o Email" name="email" required>
+      <label for="uname"><b>Repita o Email</b></label>
+      <input type="text" placeholder="Repita o Email" name="email" required>
 
-          <label for="psw"><b>Senha</b></label>
-          <input type="password" placeholder="Senha" name="senha" required>
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Senha" name="senha" required>
 
-          <label for="psw"><b>Repita a Senha</b></label>
-          <input type="password" placeholder="Repita a Senha" name="resenha" required>
+      <label for="psw"><b>Repita a Senha</b></label>
+      <input type="password" placeholder="Repita a Senha" name="resenha" required>
 
 
-          <label>
-            <input type="checkbox" checked="checked" name="remember"> Lembre-se de mim
-          </label><br>
-          <button type="submit" id="cad">Cadastrar</button>
-        </div>
-      
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" class="cancelbtn">Voltar</button>
-          <span class="login">Já tem um login? Então clique <a href="../html/login.html">aqui.</a></span>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Lembre-se de mim
+      </label><br>
+      <a href="login.html"><button id="cad">Cadastrar</button></a>
     </div>
-      </form>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <a href="../indexo.html"><button class="cancelbtn">Voltar</button></a>
+      <span class="login">Já tem um login? Então clique <a href="login.html">aqui.</a></span>
+</div>
+  </div>
 </body>
 
 </html>
