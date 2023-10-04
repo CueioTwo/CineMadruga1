@@ -63,34 +63,36 @@ p{
     color: rgb(0, 0, 0);
 }
 .editar{
-    width: 25%;
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: right;
+    
 }
 .btn_edit{
     color: #ffffff;
     background-color: rgb(197, 99, 8);
-    width: 90%;
+    width: 50%;
     border-radius: 10px;
+    
 }
 .btn_edit:hover{
     background-color: rgba(197, 99, 8, 0.697);
     color: #ffffff;
 }
-.class-exit{
+.class-edit{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 .exit{
-    width: 50%;
-    display: flex;
-    align-items: baseline;
-    justify-content: right;
+    width: 25%;
 
 }
 .btn_exit{
     color: #ffffff;
     background-color: rgb(197, 99, 8);
-    width: 50%;
+    width: 90%;
     border-radius: 10px;
 
 }
