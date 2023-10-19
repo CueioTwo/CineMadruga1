@@ -8,12 +8,12 @@ body{
     src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
   }
   h1{
-    padding: 10px;
     font-family: "Alkatra-VariableFont_wght";
     color: rgb(0, 0, 0);
+    margin: auto;
   }
 .conteudo1{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -52,28 +52,40 @@ body{
     margin-top: 10vh;
     
 }
+.Class_Idade{
+    display: flex;
+    width: 12%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
 .cabecalho{
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
+    height: 10vh;
 }
 p{
     font-family: "Alkatra-VariableFont_wght";
     color: rgb(0, 0, 0);
 }
 .editar{
-    width: 50%;
+    width: 20%;
     display: flex;
     align-items: baseline;
     justify-content: right;
+    
     
 }
 .btn_edit{
     color: #ffffff;
     background-color: rgb(197, 99, 8);
-    width: 50%;
+    width: 80%;
     border-radius: 10px;
+    margin-right: 10px;
     
 }
 .btn_edit:hover{
@@ -81,12 +93,15 @@ p{
     color: #ffffff;
 }
 .class-edit{
+    padding-top: 20px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
 }
 .exit{
     width: 25%;
+    margin-bottom: 4.5vh;
 
 }
 .btn_exit{
@@ -101,8 +116,7 @@ p{
     color: #ffffff;
 }
 .Classificação{
-    padding-top: 30px;
-    width: 50%;
+    width: 80%;
 }
 .sinopse h2{
     margin-left: 2rem !important;
@@ -119,8 +133,7 @@ p{
     font-family: "Alkatra-VariableFont_wght";
 }
 .img_Class_Idade{
-    width: 50px;
-    padding-top: 10px;
+    width: 60px;
 }
 .informacoes1{
     width: 80%;

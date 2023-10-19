@@ -1,9 +1,12 @@
 
-form {
-    border: 3px solid #f1f1f1;
-  }
   
- 
+body{
+  background-image: url("../img/Fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -12,7 +15,15 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-  
+
+.conteudo_cadastro{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #242B30;
+}
+
 .titulo_h1{
   text-align: center;
   color: rgb(255, 255, 255);

@@ -1,13 +1,100 @@
+@font-face {
+  font-family: "Alkatra-VariableFont_wght";
+  src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
+}
+
+body{
+  background-image: url("../img/Fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 * {box-sizing: border-box}
 
 
   input[type=text], input[type=password] {
-  width: 100%;
+  width: 80%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+}
+
+.conteudo_login{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #242B30;
+}
+
+#lig{
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Alkatra-VariableFont_wght";
+}
+
+.inputs-botoes{
+  width: 30vw;
+  margin: auto;
+  background-color: #fefefecd;
+  border-radius: 10%;
+  height: 500px;
+  box-shadow: 5px 5px 10px #a9a9a933;
+          /*Esquerda Baixo Blur Cor*/
+}
+
+.inputs{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+}
+
+.inputs label{
+  font-size: 1.3em;
+}
+
+.input_email{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 20px;
+  
+  
+}
+
+.input_email input{
+  padding-left: 10px;
+  width: 90%;
+  background-color: #1138549a;
+}
+
+.input_senha{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.input_senha input{
+  padding-left: 10px;
+  width: 90%;
+  background-color: #1138549a;
+}
+
+.lembre-se{
+  width: 100%;
+  padding-left: 20px;
+}
+
+.botões{
+  width: 90%;
+  margin: auto;
 }
 
 input[type=text]:focus, input[type=password]:focus {
