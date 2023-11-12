@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Alkatra-VariableFont_wght";
+    src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
+  
+  }
+
+
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../filas-de-assentos-vermelhos-em-um-teatro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffff;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    border-radius: 16px;
+    background-color: rgb(174, 0, 0);
+}
+
+.imagem{
+    width: 30%;
+    background-color: rgb(122, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Img{
+    height: 400px;
+    margin: auto;
+}
+
+.coisas{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+    
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+}
+.titulo h1{
+    font-size: 3em;
+    font-family: "Alkatra-VariableFont_wght";
+    color: rgb(255, 255, 255);;
+}
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: space-between;
+}
+.input{
+    margin-right: 0;
+}
+.input label{
+    font-size: 1.5em;
+}
+
+.input input{
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 20vw;
+    height: 20px;
+    box-shadow: 1px 1px 6px #0000001c;
+    border: none;
+    padding: 0.3rem 1.2rem;
+}
+
+.input{
+    padding-bottom: 1em;
+}
+
+.input input:focus-visible{
+    outline: 1.5px solid rgb(0, 0, 0);
+}
+
+.input input:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.metade1{
+    width: 40%;
+    padding-left: 10px;
+    
+}
+.metade2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    
+}
+
+
+.botoes{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    justify-self: center;
+    align-items: center;
+    height: 17%;
+}
+.botoes input[type=submit]{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.botoes input[type=reset]{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}

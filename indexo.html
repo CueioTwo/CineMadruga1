@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/navbar_2.css">
+
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>CineMadruga</title>
@@ -15,42 +18,41 @@
 
     
 
-    <head>
-        <nav class="navbar navbar-expand-lg navbar-light navs">
-            <a class="navbar-brand" href="#"><span class="nav_text Navbar_Text">CineMadruga</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <li class="nav-item active">
-                <a class="nav-link" href="indexo.html"><span class="nav_text">Home</span> <span class="sr-only">(página atual)</span></a>
+    <header>
+        <input type="checkbox" name="" id="chk1">
+        <div class="logo"><h1>CineMadruga</h1></div>
+        <div class="search-box">
+            <form action="">
+                <input type="text" name="search" id="srch" placeholder="Buscar">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li >
+                <div class="dropdown">
+                    <button class="  dropdown-toggle drop-down" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Botão dropdown
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="htmls/acao.html">Ação</a>
+                      <a class="dropdown-item" href="htmls/infantil.html">Infântil</a>
+                      <a class="dropdown-item" href="htmls/terror.html">Terror</a>
+                    </div>
+                  </div>
             </li>
-            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="nav_text">Categorias</span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="htmls/acao.html">Ação</a>
-                    <a class="dropdown-item" href="htmls/terror.html">Terror</a>
-                    <a class="dropdown-item" href="htmls/infantil.html">Infantil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="btn btn_nav" href="htmls/cadfilme.html" role="button">Cadastrar filmes</a>
-                </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn_nav" type="submit">Pesquisar</button>&nbsp;
-                <a class="btn btn_nav" href="htmls/login.html" role="button">Login</a>&nbsp;
-                <a class="btn btn_nav" href="htmls/cadastro.html" role="button">Cadastrar</a>
-                
-            </div>
-        </nav>
-    </head>
+            <a class="btn btn-primary botao" href="htmls/cadastro_2.html" role="button">Cadastrar Livro</a>
+            <a class="btn btn-primary botao" href="htmls/login_2.html" role="button">Cadastre-se/Entrar</a>
+            
+            
+        </ul>
+        <div class="menu">
+            <label for="chk1"><i class="fa fa-bars"></i>
+            </label>
+        </div>
+    </header>
     <div class="container-fluid tudo w-100 p-3 ">
         <div class="row tudo1  justify-content-center">
-            <div class="col-11 conteudo">
+            <div class="col-12 conteudo">
                 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -78,88 +80,95 @@
                       <span class="sr-only">Próximo</span>
                     </a>
                 </div>
-                <h1><strong>Lançamentos</strong></h1> <br>
-                <div class="row filmes">
-                    
-                    <div class="col-3 filme_1">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_Elementos_1.jpeg" alt="" class="img_filme">
-                            <a href="htmls/filme_elemental.html">
-                                <h2>Elementos</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_elemental.html" role="button">Ver</a>
-                            
-                            
-                        </div>
-                    </div>
-                    <div class="col-3 filme_2">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_Panico_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_panico6.html">
-                                <h2>Panico 6</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_panico6.html" role="button">Ver</a>
-                        </div>
-                    </div>
-                    <div class="col-3  filme_3">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_Nimona_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_nimona.html">
-                                <h2>Nimona</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_nimona.html" role="button">Ver</a>
-                        </div>
-                    </div>
-                    <div class="col-3 filme_4">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_Viva_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_viva.html">
-                                <h2>Viva</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_viva.html" role="button">Ver</a>
-                        </div>
-                    </div>  
-                </div>
+                <div class="tudofilmes">
+                    <h1><strong>Lançamentos</strong></h1> <br>
+                    <div class="row filmes">
 
-                <h1><strong>Mais Vistos</strong></h1> <br>
-                <div class="row filmes">
+                        <div class="filme_1">
+                            <div class=" filme    justify-content-md-cente">
+                                <img src="img/Capa_Elementos_1.jpeg" alt="" class="img_filme">
+                                <h2>Elementos</h2>
+                            </div>
+                        </div>
+
+                        <div class="filme_2">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_Panico_1.jpg" alt="" class="img_filme">
+                                <h2>Pânico</h2>
+                            </div>
+                        </div>
+
+                        <div class="filme_3">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_Nimona_1.jpg" alt="" class="img_filme">
+                                <h2>Nimona</h2>
+                            </div>
+                        </div>
+
+                        <div class="filme_4">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_Viva_1.jpg" alt="" class="img_filme">
+                                <h2>Viva a Vida e uma Festa</h2>
+                            </div>
+                        </div>
+
+                        <div class="filme_5">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_Viva_1.jpg" alt="" class="img_filme">
+                                <h2>Elementos</h2>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <h1><strong>Mais Vistos</strong></h1> <br>
+                    <div class="row filmes">
                     
-                    <div class="col-3 filme_1">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_It_1.jpeg" alt="" class="img_filme">
-                            <a href="htmls/filme_it.html">
-                                <h2>It a Coisa</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_it.html" role="button">Ver</a>
+                        <div class="filme_1">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_It_1.jpeg" alt="" class="img_filme">
+                                <a href="htmls/filme_it.html">
+                                    <h2>It a Coisa</h2>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="filme_2">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_Carros3_1.jpg" alt="" class="img_filme">
+                                <a href="htmls/filme_carros3.html">
+                                    <h2>Carros 3</h2>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="filme_3">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_VingadoresUltimato_1.jpg" alt="" class="img_filme">
+                                <a href="htmls/filme_vingadoresultimato.html">
+                                    <h2>Vingadores 4</h2>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="filme_4">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_BesouroAzul_1.jpg" alt="" class="img_filme">
+                                <a href="htmls/filme_besouroazul.html">
+                                    <h2>Besouro Azul</h2>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="filme_4">
+                            <div class="filme justify-content-md-cente">
+                                <img src="img/Capa_BesouroAzul_1.jpg" alt="" class="img_filme">
+                                <a href="htmls/filme_besouroazul.html">
+                                    <h2>Besouro Azul</h2>
+                                </a>
+                                
+                            </div>
                         </div>
                     </div>
-                    <div class="col-3 filme_2">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_Carros3_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_carros3.html">
-                                <h2>Carros 3</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_carros3.html" role="button">Ver</a>
-                        </div>
-                    </div>
-                    <div class="col-3  filme_3">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_VingadoresUltimato_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_vingadoresultimato.html">
-                                <h2>Vingadores 4</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_vingadoresultimato.html" role="button">Ver</a>
-                        </div>
-                    </div>
-                    <div class="col-3 filme_4">
-                        <div class="filme justify-content-md-cente">
-                            <img src="img/Capa_BesouroAzul_1.jpg" alt="" class="img_filme">
-                            <a href="htmls/filme_besouroazul.html">
-                                <h2>Besouro Azul</h2>
-                            </a>
-                            <a name="" id="" class="btn btn_ver" href="htmls/filme_besouroazul.html" role="button">Ver</a>
-                        </div>
-                    </div>  
                 </div>
 
 

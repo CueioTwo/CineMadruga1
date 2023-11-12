@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMagruga</title>
+    <link rel="stylesheet" href="../css/login_2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imagem">
+            <img src="../wepik-export-202311032042040QpW.png" alt="" id="Img">
+        </div>
+        <div class="coisas">
+            <form action="../php/salvar.php" method="post" enctype="multipart/form-data">
+                <div class="titulo"><h1>Login</h1></div>
+                <div class="inputs">
+                        <div class="input">
+                            <label for="email">Email: </label> <br>
+                            <input type="email" name="email" id="email" max="60" >
+                        </div>
+                        <div class="input">
+                            <label for="senha">Senha: </label> <br>
+                            <input type="text" name="senha" id="senha">
+                        </div>
+                    </div>
+                <div class="botoes">
+                    <input type="submit" id="enviar" value="Enviar"> <br>
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
