@@ -99,6 +99,22 @@ body{
     background-color: rgb(224, 224, 224);
 }
 
+.Entrar{
+    padding-top: 5px;
+}
+
+.Entrar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1em;
+    
+}
+
+.Entrar a:hover{
+    color: rgb(38, 38, 38);
+}
+
 .botoes{
     margin: auto;
     display: flex;

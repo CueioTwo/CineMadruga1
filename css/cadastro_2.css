@@ -23,7 +23,7 @@ body{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 550px;
     border-radius: 16px;
     background-color: rgb(174, 0, 0);
 }
@@ -54,6 +54,7 @@ body{
 .titulo{
     width: 100%;
     text-align: center;
+
 }
 .titulo h1{
     font-size: 3em;
@@ -109,6 +110,21 @@ body{
     
 }
 
+.login{
+    padding-left: 0.8vw;
+    
+}
+
+.login a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1em;
+    
+}
+.login a:hover{
+    color: rgb(38, 38, 38);
+}
 
 .botoes{
     margin: auto;
