@@ -10,20 +10,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $datalanca = $_POST['datalanca'];
     $sinopse = $_POST['sinopse'];
     $classificacao = $_POST['classificacao'];
+    $capa = $_FILES['capa']['name'];
 
     $dados2 = $conn -> query("SELECT * FROM filme WHERE nome_filme = '$nome_filme' AND diretor = '$diretor' AND datalanca = '$datalanca'");
     $check = mysqli_num_rows($dados2);
 
+
+    $uploaddir = "../img_capa/";
+
+    $separa = explode(".", $capa);
+    $separa = array_reverse($separa);
+    $ext = $separa[0];
+
+    $capaf = $nome_filme . "." . $ext;
+
     if($check < 1){
 
-        if($nome_filme != "" &&  $diretor != "" && $duracao != "" && $genero != "" && $datalanca != "" && $sinopse = "" && $classificacao = ""){
+        if($nome_filme != "" &&  $diretor != "" && $duracao != "" && $genero != ""){
+            if(file_exists("../img_capa/$capaf") == false){
+                move_uploaded_file($_FILES['capa']['tmp_name'], $uploaddir.$capaf);
+                $uploadfile = $uploaddir . $capaf;
 
-            $conn -> query("INSERT INTO filme(id_filme, nome_filme, diretor, duracao, genero, datalanca, sinopse, class_indicativa)
-            VALUES(NULL, '$nome_filme', '$diretor', '$duracao',  '$genero', '$datalanca','$sinopse', '$classificacao')");
-            echo "<script language='javascript'>";
-            echo "alert('Cadastrado com suscesso');";
-            echo 'window.location.assign("../indexo.html");';
-            echo "</script>";
+                $conn -> query("INSERT INTO filme(id_filme, nome_filme, diretor, duracao, genero, datalanca, sinopse, class_indicativa, capa)
+                VALUES(NULL, '$nome_filme', '$diretor', '$duracao',  '$genero', '$datalanca','$sinopse', '$classificacao', '$uploadfile')");
+                echo "<script language='javascript'>";
+                echo "alert('Cadastrado com suscesso');";
+                echo 'window.location.assign("../indexo.html");';
+                echo "</script>";
+
+            } else{
+                echo "<script language='javascript'>";
+                echo "alert('Imagem não cadastrada');";
+                echo "</script>";
+            }
 
         }else{
 
@@ -103,7 +122,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 <option value="18 anos">18 anos</option>
                             </select>
                         </div>
-                        
+                        <div class="input">
+                            <label for="capa">Capa do Filme: </label> <br>
+                            <input type="file" name="capa" id="capa" class="capa" accept="image/*" required style="background-color: aliceblue; color: black;"><br>
+                        </div>
                     </div>
                 </div>
                 
