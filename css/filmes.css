@@ -1,27 +1,40 @@
 
 body{
-    background-color: rgb(2, 2, 2);
+    background-color: #ffff;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "RobotoMono-Italic-VariableFont_wght";
+    src: url(../Fontes/RobotoMono-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
     font-family: "Alkatra-VariableFont_wght";
     src: url("../Fontes/Alkatra-VariableFont_wght.ttf");
   }
-  h1{
-    font-family: "Alkatra-VariableFont_wght";
+.cabecalho h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(0, 0, 0);
     margin: auto;
   }
+
+.geral{
+    width: 100vw;
+    height: 100vh;
+    color: #ffff;
+    padding-top: 16vh;
+}
+
 .conteudo1{
     width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 120vh;
     background-color: #ffffff;
-    margin-top: -50px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: -10vh;
 
 }
 .img_demonstrativa_div{
@@ -34,16 +47,18 @@ body{
     width: 100%;
 }
 .informações_filme{
-    padding-top: 10px;
-    margin-left: 2%;
+    width: 59vw;
     font-family: "Alkatra-VariableFont_wght";
     display: flex;
     flex-wrap: wrap;
+    height: 150px;
+    margin-top: -10vh;
     
 }
 .informações_filme h2{
     font-size: 1.3em;
     padding-bottom: 10px;
+    
 }
 .informações{
     width: 40% ;
@@ -68,9 +83,17 @@ body{
     width: 100%;
     height: 10vh;
 }
+
+.cabecalho{
+    list-style: none;
+}
+
 p{
     font-family: "Alkatra-VariableFont_wght";
     color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
 }
 .editar{
     width: 20%;
@@ -82,14 +105,14 @@ p{
 }
 .btn_edit{
     color: #ffffff;
-    background-color: rgb(197, 99, 8);
+    background-color: rgb(0, 0, 0);
     width: 80%;
     border-radius: 10px;
     margin-right: 10px;
     
 }
 .btn_edit:hover{
-    background-color: rgba(197, 99, 8, 0.697);
+    background-color: rgba(0, 0, 0, 0.697);
     color: #ffffff;
 }
 .class-edit{
@@ -100,28 +123,32 @@ p{
 
 }
 .exit{
-    width: 25%;
-    margin-bottom: 4.5vh;
+    width: 35vw;
+    padding-top: 4vh;
+   
+    padding-left: 20px;
+    padding-bottom: 4vh;
 
 }
 .btn_exit{
     color: #ffffff;
-    background-color: rgb(197, 99, 8);
-    width: 90%;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
     border-radius: 10px;
+    
 
 }
 .btn_exit:hover{
-    background-color: rgba(197, 99, 8, 0.697);
+    background-color: rgba(34, 34, 34, 0.697);
     color: #ffffff;
 }
 .Classificação{
     width: 80%;
 }
 .sinopse h2{
-    margin-left: 2rem !important;
+    margin-left: 1.1rem;
     color: rgb(0, 0, 0);
-    font-family: "Alkatra-VariableFont_wght";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sinopse{
     width: 90%;
@@ -137,7 +164,17 @@ p{
 }
 .informacoes1{
     width: 80%;
+    
 }
+
+.informacoes1 h2{
+    color: #000000;
+    font-weight: 600;
+    font-family: "RobotoMono-Italic-VariableFont_wght";
+    margin-left: 3px;
+
+}
+
 .tipo{
     width: 20%;
     display: flex;
@@ -157,3 +194,4 @@ p{
     text-align: center;
     color: #ffffff;
 }
+

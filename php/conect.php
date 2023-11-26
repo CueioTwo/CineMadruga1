@@ -1,2 +1,5 @@
 <?php
-$conn = mysqli('localhost', 'root', '', 'Banco_CineMadruga');
+$conn = new mysqli('localhost', 'root', '', 'banco_cinemadruga');
+
+
+?>

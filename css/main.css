@@ -53,6 +53,12 @@ body{
     padding-bottom: 20px;
 }
 
+.logo a{
+  text-decoration: none;
+  
+}
+.logo a{color: #ffffff;}
+
 .carousel-inner > .carousel-item > img {
     width: 70%;
     height: 600px;

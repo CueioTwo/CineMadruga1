@@ -23,7 +23,7 @@ body{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    height: 550px;
+    height: 650px;
     border-radius: 16px;
     background-color: rgb(174, 0, 0);
 }
@@ -97,8 +97,10 @@ body{
 }
 
 .metade1{
-    width: 40%;
+    width: 45%;
     padding-left: 10px;
+    height: 400px;
+
     
 }
 .metade2{
@@ -107,6 +109,8 @@ body{
     justify-content: right;
     flex-wrap: wrap;
     padding-right: 10px;
+
+    height: 280px;
     
 }
 
@@ -145,7 +149,12 @@ body{
     width: 100px;
     border-radius: 10px;
 }
-.input-tipo input{
-    display: none;
-    
+
+.input textarea{
+    resize: none;
+    width: 22.5vw;
+}
+
+.input select{
+    width: 22.5vw;
 }
