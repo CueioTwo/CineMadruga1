@@ -11,7 +11,7 @@ $repsenha = $_POST['rep_senha'];
 $cep = $_POST['cep'];
 $apelido = $_POST['apelido'];
 $data_nasc = $_POST['datanasc'];
-$tipo = 0;
+$tipo = 1;
 
 
 
