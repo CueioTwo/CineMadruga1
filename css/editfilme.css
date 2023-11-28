@@ -63,6 +63,11 @@ button:hover {
   clear: both;
   display: table;
 }
+.botao_enviar{
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+}
 
 
 @media screen and (max-width: 300px) {

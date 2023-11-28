@@ -124,7 +124,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                         </div>
                         <div class="input" style="width: 100%; padding-left: 3vw;">
                             <label for="capa">Capa do Filme: </label> <br>
-                            <input type="file" name="capa" id="capa" class="capa" accept="image/*" required style="background-color: aliceblue; color: black; height: 20px; width: 100%;"><br>
+                            <input type="file" name="capa" id="capa" class="capa" accept="image/*" required style="background-color: aliceblue; color: black; height: 29px; width: 100%;"><br>
                         </div>
                     </div>
                 </div>
