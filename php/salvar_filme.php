@@ -122,9 +122,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
                                 <option value="18 anos">18 anos</option>
                             </select>
                         </div>
-                        <div class="input">
+                        <div class="input" style="width: 100%; padding-left: 3vw;">
                             <label for="capa">Capa do Filme: </label> <br>
-                            <input type="file" name="capa" id="capa" class="capa" accept="image/*" required style="background-color: aliceblue; color: black;"><br>
+                            <input type="file" name="capa" id="capa" class="capa" accept="image/*" required style="background-color: aliceblue; color: black; height: 20px; width: 100%;"><br>
                         </div>
                     </div>
                 </div>
